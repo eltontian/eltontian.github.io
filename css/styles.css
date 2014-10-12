@@ -1,18 +1,20 @@
 html,body{margin:0;padding:0}
-body{font: 76% arial,sans-serif;text-align:center}
+body{font: 76% arial,sans-serif;text-align:center; background-color:#7f7e7f;}
 p{margin:0 10px 10px}
 a{padding:5px; text-decoration:none; color:#000000;}
-div#header{background-color:#29cc29;}
+div#header{background-color:#8252a1;}
 div#header h1{height:80px;line-height:80px;margin:0;padding-left:10px;}
 div#container{text-align:left}
 div#content p{line-height:1.4}
-div#navigation{background:#F6F0E0;}
-div#navigation ul{margin:15px 0; padding:0; list-style-type:none;}
+div#navigation{background:#8252a1;}
+div#navigation ul{margin:20px 0; padding:20; list-style-type:none;}
 div#navigation li{margin-bottom:5px;}
-div#extra{background:#CCC8B3;}
-div#footer{background:#BFBD93;}
+div#extra{background:#8252a1;}
+div#footer{background:#8252a1;}
 div#footer p{margin:0;padding:5px 10px}
 div#container{width:1020px;margin:0 auto}
 div#content{float:left;width:500px}
 div#navigation{float:right;width:200px}
 div#extra{clear:both;width:100%}
+div#logo{padding-top: 200; padding-bottom: 200;background-color:#4c4c4c;}
+img#image{padding-top: 200; padding-bottom: 200;}
