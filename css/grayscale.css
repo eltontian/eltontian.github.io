@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #219ab3;
+    color: #0099cc;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -255,12 +255,13 @@ a:focus {
     /*padding-top: 100px;*/
 }
 
-.download-section {
+.project-section {
     width: 100%;
     padding: 0px 0;
     color: #0099cc;
     
-    background:rgba(0,153,204,.2);
+    background-color:rgba(0,153,204,.2);
+    /*background: url(../img/cloud.png) no-repeat right bottom;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -306,7 +307,7 @@ a:focus {
 
 .btn-default {
     border: 1px solid #0099cc;
-    color: #219ab3;
+    color: #0099cc;
     background-color: transparent;
 }
 
@@ -371,6 +372,12 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
 .pull-left{
     float:left;
+}
+
+.prof-border {
+    padding:1px;
+    border:1px solid #0099cc;
 }
