@@ -30,5 +30,5 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $('.showfxn').click(function() {
-    $('.carousel').fadeToggle();
+    $('.hidden-row').fadeToggle();
 });

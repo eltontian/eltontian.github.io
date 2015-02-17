@@ -409,7 +409,6 @@ button {
     background: black;
     display: none;
 }
-.display-control{
+.hidden-row{
     display:none;
-    padding:40px 10px 10px 20px;
 }
