@@ -259,7 +259,7 @@ a:focus {
     width: 100%;
     padding: 0px 0;
     color: #0099cc;
-    
+    padding-top: 85px;
     background-color:rgba(0,153,204,.2);
     /*background: url(../img/cloud.png) no-repeat right bottom;*/
     -webkit-background-size: cover;
@@ -291,7 +291,7 @@ a:focus {
         padding-top: 100px;
     }
 
-    .download-section {
+    .project-section {
         padding: 100px 0;
     }
 }
@@ -313,10 +313,10 @@ a:focus {
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #0099cc;
+    border: 1px solid rgba(0,153,204,.2);
     outline: 0;
-    color: #000;
-    background-color: #0099cc;
+    color: #0099cc;
+    background-color: rgba(0,153,204,.2);
 }
 
 ul.banner-social-buttons {
@@ -380,4 +380,36 @@ body {
 .prof-border {
     padding:1px;
     border:1px solid #0099cc;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.reservoir-caption {
+/*    background: url(../img/reservoir.png) no-repeat bottom center scroll;*/
+}
+
+button {
+    display: inline-block;
+    width: 48px;
+    line-height: 30px;
+    padding: 0;
+    text-align: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: black;
+    display: none;
+}
+.display-control{
+    display:none;
+    padding:40px 10px 10px 20px;
 }

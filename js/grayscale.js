@@ -28,3 +28,7 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$('.showfxn').click(function() {
+    $('.carousel').fadeToggle();
+});
