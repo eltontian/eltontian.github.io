@@ -1,0 +1,10 @@
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.css");
+
+
+.jumbotron{
+background-color: rgb(82, 207, 87);
+}
+.container{
+background-color: transparent;
+}
