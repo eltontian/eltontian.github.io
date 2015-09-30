@@ -392,9 +392,6 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
-.reservoir-caption {
-/*    background: url(../img/reservoir.png) no-repeat bottom center scroll;*/
-}
 
 button {
     display: inline-block;
@@ -454,4 +451,10 @@ button {
 .btns {
   width: 230px;
   margin: 50px auto;
+}
+.project_description {
+    height: 70px;
+}
+.project_title {
+    height: 25px;
 }
