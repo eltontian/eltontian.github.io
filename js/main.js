@@ -31,4 +31,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 $('.showfxn').click(function() {
     $('.hidden-row').fadeToggle();
+    if($.text() == "show gallery") {
+        $.text("close gallery")
+    }
 });

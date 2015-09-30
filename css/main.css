@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: open sans;
     color: #fff;
     background-color: #ffffff;
 }
@@ -415,4 +415,43 @@ button {
 .thumb{
     padding:1px;
     border:1px solid #0099cc;
+}
+
+.wheel-button.active img{
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari and Chrome */
+  transition: .7s ease-in;
+}
+
+.wheel li a, .wheel li a:visited{
+  background: white;
+  border-radius: 50px;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0099cc;
+  color: #0099cc;
+  -moz-transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.wheel li a:hover{
+  border: 1px solid rgba(0,153,204,.2);
+    outline: 0;
+    color: #0099cc;
+    background-color: rgba(0,153,204,.2);
+}
+
+.main {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+}
+.btns {
+  width: 230px;
+  margin: 50px auto;
 }
