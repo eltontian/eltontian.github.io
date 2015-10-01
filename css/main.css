@@ -418,7 +418,7 @@ button {
   transform: rotate(90deg);
   -ms-transform: rotate(90deg); /* IE 9 */
   -webkit-transform: rotate(90deg); /* Safari and Chrome */
-  transition: .7s ease-in;
+  transition: .50s ease-in;
 }
 
 .wheel li a, .wheel li a:visited{
@@ -451,10 +451,4 @@ button {
 .btns {
   width: 230px;
   margin: 50px auto;
-}
-.project_description {
-    height: 70px;
-}
-.project_title {
-    height: 25px;
 }
